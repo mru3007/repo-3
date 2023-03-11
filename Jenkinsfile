@@ -5,7 +5,7 @@ pipeline {
     parameters {
         string(name: 'NAME', description: 'Please tell me your name?')
  
-        string(job details: 'JOB_DETAILS' description: 'Please tell me your current job profile')
+        string(job: 'JOB_DETAILS' description: 'Please tell me your current job profile')
  
         booleanParam(name: 'SKIP_TEST', description: 'Want to skip running Test cases?')
  
